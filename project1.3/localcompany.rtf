@@ -1,0 +1,85 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 #localcompany.html\
+<html>\
+<style>\
+table \{\
+    width:70%;\
+\}\
+table, th, td \{\
+    border: 1px solid black;\
+    border-collapse: collapse;\
+\}\
+th, td \{\
+    padding: 5px;\
+    text-align: left;\
+\}\
+table#t01 tr:nth-child(even) \{\
+    background-color: #eee;\
+\}\
+table#t01 tr:nth-child(odd) \{\
+   background-color:#fff;\
+\}\
+table#t01 th  \{\
+    background-color: black;\
+    color: white;\
+\}\
+</style>\
+\
+<body>\
+<img src="http://wallpapercave.com/wp/MbXUy9y.jpg" width="90%" height="400" >\
+<br>\
+<br>\
+<center>\
+<h2>Details about Tour Company</h2>\
+<table id="t01">\
+\
+  <tr>\
+  <td>TourCompany ID</td>\
+  \{% for x in comID%\}\
+  <td>\{\{x\}\}</td>\
+  \{% endfor %\}\
+  </tr>\
+\
+  <tr>\
+  <td>Company Name</td>\
+  \{% for x in comName%\}\
+  <td>\{\{x\}\}</td>\
+  \{% endfor %\}\
+  </tr>\
+\
+  <tr>\
+  <td>Company Rate</td>\
+  \{% for x in comRate%\}\
+  <td>\{\{x\}\}</td>\
+  \{% endfor %\}\
+  </tr>\
+\
+  <tr>\
+  <td>Company Location</td>\
+  \{% for x in comLoca%\}\
+  <td>\{\{x\}\}</td>\
+  \{% endfor %\}\
+  </tr>\
+  \
+  <tr>\
+  <td>Contact Number</td>\
+  \{% for x in comPhone%\}\
+  <td>\{\{x\}\}</td>\
+  \{% endfor %\}\
+  </tr>\
+\
+  </table>\
+\
+<br>\
+<br>\
+<p><h3><a href="/front">Go back to front page</a><h3></p>\
+</center>\
+</body>\
+</html>\
+\
+}
