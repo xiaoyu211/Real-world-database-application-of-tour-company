@@ -1,3 +1,5 @@
+Using PostgreSQL as the database, Python/Flask as the back-end. Write an E/R diagram of the database, specifying the real-world constraints for the application. Map E/R diagram into a relational schema in SQL, capturing the E/R constraints. Web Front-End Option: Tour companies can add and modify tour package. Tourist can search and purchase tour package by search the destination they want. 
+
 PostgreSQL account: xw2419
 
 URL: http://40.114.89.48:8111 
